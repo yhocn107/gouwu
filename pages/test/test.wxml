@@ -1,0 +1,7 @@
+
+<view wx:for="{{items}}" wx:for-index="index" wx:for-item="item">
+<!-- {{index+1}}、 -->
+<!-- {{item}} -->
+</view>
+<label>我的名字是</label>
+<text> {{items}}</text>

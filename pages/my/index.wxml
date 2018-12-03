@@ -1,0 +1,36 @@
+<!-- index.wxml
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="info_list">
+    <block wx:for="{{userListInfo}}">
+        <view class="weui_cell">
+            <view class="weui_cell_hd"><image src="{{item.icon}}"></image></view>
+            <view class="weui_cell_bd">
+                <view class="weui_cell_bd_p"> {{item.text}} </view>
+            </view>
+            <view wx:if="{{item.isunread}}" class="badge">{{item.unreadNum}}</view>
+            <view class="with_arrow"></view>
+        </view>
+    </block>
+  </view>
+  <span style="font-size:24px;"><!--index.wxml-->  
+<!-- <view class="btn-area">  
+
+
+<navigator class="test-item" bindtap='nvlink'>
+    跳转到新页面
+</navigator>
+<button class="test-item111" bindtap='nvlink11'>
+跳转
+
+</button>
+  <!-- <navigator url="../test/test?id=上一页的参数" >跳转到新页面</navigator>   -->
+   
+  <!-- <navigator url="../my/myorder?list="+{{list}} >chuancam</navigator> -->
+<!-- </view></span>
+
+</view> --> --> -->
+<view id="tapTest" data-hi="WeChat" bindtap="tapName"> Click me! </view>
